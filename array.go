@@ -38,5 +38,11 @@ func main() {
 	fmt.Println("d", d)
 
 	/* Slice -- Todo lo que podemos hacer en un arreglo lo podemos hacer en un slice, con un par de excepciones */
+	sliceA := []int{1, 2, 3}
+	sliceB := a
+	sliceB[0] = 5
 
+	fmt.Println(sliceA)
+	fmt.Println(sliceB)
+	fmt.Println(sliceA)
 }
